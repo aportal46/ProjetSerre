@@ -21,9 +21,10 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // create and show your widgets here
-    
-   VueMeteo maVueMeteo; 
-  maVueMeteo.show(); 
+        
+   VueMeteo maVueMeteo;
+   maVueMeteo.mettreAjour();
+   maVueMeteo.show(); 
 
     return app.exec();
 }
