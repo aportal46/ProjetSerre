@@ -10,8 +10,9 @@
  *
  * Created on 10 janvier 2019, 18:41
  */
-
+#include "VueMeteo.h"
 #include <QApplication>
+#include <QWidget>
 
 int main(int argc, char *argv[]) {
     // initialize resources, if needed
@@ -20,6 +21,9 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // create and show your widgets here
+    
+   VueMeteo maVueMeteo; 
+  maVueMeteo.show(); 
 
     return app.exec();
 }
