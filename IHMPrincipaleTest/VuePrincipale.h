@@ -23,7 +23,7 @@ class Superviseur;
 class VuePrincipale : public QWidget {
     Q_OBJECT
 public:
-    VuePrincipale();
+    VuePrincipale(Superviseur * unSuperviseur);
     virtual ~VuePrincipale();
     VueMeteo * getLaVueMeteo ();
     void mettreAjour ();

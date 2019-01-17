@@ -13,9 +13,10 @@
 
 #include "VuePrincipale.h"
 
-VuePrincipale::VuePrincipale() {
+VuePrincipale::VuePrincipale(Superviseur * unSuperviseur) {
     widget.setupUi(this);
     // creation des widgets
+    leSuperviseur = unSuperviseur;
     laVueMeteo = new VueMeteo ();
     for (int i = 0; i < 3; i++) {
         laVueSerre [i] = new VueSerre ();

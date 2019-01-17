@@ -14,6 +14,7 @@
 #include <QApplication>
 
 #include "VuePrincipale.h"
+#include "Superviseur.h"
 
 int main(int argc, char *argv[]) {
     // initialize resources, if needed
@@ -22,7 +23,8 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // create and show your widgets here
-    VuePrincipale * vp = new VuePrincipale ();
+    Superviseur * superviseur = new Superviseur ();
+    VuePrincipale * vp = new VuePrincipale (superviseur);
     vp->mettreAjour ();
     vp->show ();
     return app.exec();
