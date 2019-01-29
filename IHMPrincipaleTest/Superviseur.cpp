@@ -16,17 +16,17 @@
 
 Superviseur::Superviseur() {
     for (int i = 0; i < 3; i++) {
-        //serre [i] = new Serre ();
+        serre [i] = new Serre ();
     }
-    //leClientMeteo = new ClientMeteo ();
+    leClientMeteo = new ClientMeteo ();
 }
 
 Superviseur::~Superviseur() {
-    //delete leClientMeteo;
+    delete leClientMeteo;
 }
 
 ClientMeteo * Superviseur::getLeClientMeteo () {
-    //return leClientMeteo;
+    return leClientMeteo;
 }
 
 void Superviseur::setVuePrincipale (VuePrincipale * uneVuePrincipale) {

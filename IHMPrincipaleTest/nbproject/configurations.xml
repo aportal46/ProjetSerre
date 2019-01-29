@@ -4,23 +4,28 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>BulletinMeteo.h</itemPath>
+      <itemPath>ClientMeteo.h</itemPath>
+      <itemPath>InfosClimat.h</itemPath>
+      <itemPath>Serre.h</itemPath>
       <itemPath>Superviseur.h</itemPath>
-      <itemPath>VueMeteo.h</itemPath>
       <itemPath>VuePrincipale.h</itemPath>
       <itemPath>VueSerre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
-      <itemPath>VueMeteo.ui</itemPath>
       <itemPath>VuePrincipale.ui</itemPath>
       <itemPath>VueSerre.ui</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>BulletinMeteo.cpp</itemPath>
+      <itemPath>ClientMeteo.cpp</itemPath>
+      <itemPath>InfosClimat.cpp</itemPath>
+      <itemPath>Serre.cpp</itemPath>
       <itemPath>Superviseur.cpp</itemPath>
-      <itemPath>VueMeteo.cpp.cc</itemPath>
       <itemPath>VuePrincipale.cpp.cc</itemPath>
       <itemPath>VueSerre.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -36,6 +41,9 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>../VueMeteoTesteur/VueMeteo.cpp.cc</itemPath>
+    <itemPath>../VueMeteoTesteur/VueMeteo.h</itemPath>
+    <itemPath>../VueMeteoTesteur/VueMeteo.ui</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -50,15 +58,31 @@
       </qt>
       <compileType>
       </compileType>
+      <item path="../VueMeteoTesteur/VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InfosClimat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InfosClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
@@ -99,15 +123,31 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="../VueMeteoTesteur/VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../VueMeteoTesteur/VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../VueMeteoTesteur/VueMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InfosClimat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InfosClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="VueMeteo.ui" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipale.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>

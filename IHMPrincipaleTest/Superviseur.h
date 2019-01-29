@@ -15,9 +15,8 @@
 #define SUPERVISEUR_H
 
 #include "VuePrincipale.h"
-
-class ClientMeteo;
-class Serre;
+#include "ClientMeteo.h"
+#include "Serre.h"
 
 class Superviseur {
 public:

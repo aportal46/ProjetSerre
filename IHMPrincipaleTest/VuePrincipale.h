@@ -15,7 +15,7 @@
 #define _VUEPRINCIPALE_H
 
 #include "ui_VuePrincipale.h"
-#include "VueMeteo.h"
+#include "../VueMeteoTesteur/VueMeteo.h"
 #include "VueSerre.h"
 
 class Superviseur;
